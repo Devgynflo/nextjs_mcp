@@ -33,7 +33,8 @@ const handler = createMcpHandler(
     },
   },
   {
-    redisUrl: process.env.REDIS_URL,
+    redisUrl:
+      "redis://default:y5eWSARYhqIJh5NbEr0Oj7r2iuMMLNLW9ptY7muY16hQkADbgfWZA8FSnyTmFU1C@ncwwoc04s0ssg8o408gcos0c:6379/0",
     sseEndpoint: "/sse",
     streamableHttpEndpoint: "/mcp",
     verboseLogs: true,
