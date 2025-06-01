@@ -1,4 +1,11 @@
+packages:
+  # inclure tous les paquets dans le répertoire racine
+  - "."
+  # si vous avez d'autres paquets dans des sous-répertoires, ajoutez-les ici
+  # par exemple :
+  # - 'packages/*'
+
 onlyBuiltDependencies:
-  - '@tailwindcss/oxide'
+  - "@tailwindcss/oxide"
   - sharp
   - unrs-resolver
